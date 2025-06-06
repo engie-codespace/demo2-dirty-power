@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/demo2-poweracme/static/css/main.4738fa0d.css",
-    "main.js": "/demo2-poweracme/static/js/main.c8e38f2f.js",
-    "static/js/453.14b02d4a.chunk.js": "/demo2-poweracme/static/js/453.14b02d4a.chunk.js",
-    "index.html": "/demo2-poweracme/index.html",
-    "main.4738fa0d.css.map": "/demo2-poweracme/static/css/main.4738fa0d.css.map",
-    "main.c8e38f2f.js.map": "/demo2-poweracme/static/js/main.c8e38f2f.js.map",
-    "453.14b02d4a.chunk.js.map": "/demo2-poweracme/static/js/453.14b02d4a.chunk.js.map"
+    "main.css": "/demo2-dirty-power/static/css/main.4738fa0d.css",
+    "main.js": "/demo2-dirty-power/static/js/main.e27722de.js",
+    "static/js/453.14b02d4a.chunk.js": "/demo2-dirty-power/static/js/453.14b02d4a.chunk.js",
+    "index.html": "/demo2-dirty-power/index.html",
+    "main.4738fa0d.css.map": "/demo2-dirty-power/static/css/main.4738fa0d.css.map",
+    "main.e27722de.js.map": "/demo2-dirty-power/static/js/main.e27722de.js.map",
+    "453.14b02d4a.chunk.js.map": "/demo2-dirty-power/static/js/453.14b02d4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4738fa0d.css",
-    "static/js/main.c8e38f2f.js"
+    "static/js/main.e27722de.js"
   ]
 }
