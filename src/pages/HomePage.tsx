@@ -11,8 +11,8 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 id="ask-green-section" className="text-3xl font-bold text-dark">Ask us anything green</h2>
-            <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+            <h2 id="ask-green-section" className="text-3xl font-bold text-blue-600">Ask us anything green</h2>
+            <p className="mt-4 text-lg text-[#00f0ff] max-w-3xl mx-auto">
               Discover our complete range of energy services tailored to your needs
             </p>
           </div>
