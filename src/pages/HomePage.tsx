@@ -12,17 +12,15 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 id="ask-green-section" className="text-3xl font-bold text-blue-600">Ask us anything green</h2>
-            <p className="mt-4 text-lg text-[#00f0ff] max-w-3xl mx-auto">
+            <p className="mt-4 text-lg text-blue-600 max-w-3xl mx-auto">
               Discover our complete range of energy services tailored to your needs
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
-                <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+              <div className="h-20 w-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto border border-blue-200">
+                <img src={process.env.PUBLIC_URL + '/contrat.png'} alt="Contract icon" className="h-12 w-12 object-contain rounded-full" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Energy Supply</h3>
               <p className="text-gray-600 text-center mb-6">
