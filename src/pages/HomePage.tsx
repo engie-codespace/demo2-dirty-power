@@ -41,7 +41,7 @@ const HomePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-center">Energy Consultation</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center">Buy your solar panel</h3>
               <p className="text-gray-600 text-center mb-6">
                 Our experts help you optimize your energy consumption and reduce your bills.
               </p>
@@ -58,7 +58,7 @@ const HomePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-center">Customer Support</h3>
+              <h3 className="text-xl font-semibold mb-4 text-center">Buy your electric car</h3>
               <p className="text-gray-600 text-center mb-6">
                 A dedicated customer service team available to answer all your questions and solve your problems.
               </p>
