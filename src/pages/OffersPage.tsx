@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import OfferCard from '../components/OfferCard';
 import offersData from '../data/offers.json';
+import { AREA_LOGOS } from '../data/areaLogos';
 
 interface Offer {
   id: number;
@@ -29,7 +30,8 @@ const OffersPage: React.FC = () => {
   return (
     <div className="bg-light min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-12">
+        <div className="flex flex-col items-center mb-12">
+          <img src={AREA_LOGOS.offers} alt="Offers Logo" className="w-40 h-40 mb-6 object-contain" />
           <h1 className="text-4xl font-bold text-dark">Our Energy Offers</h1>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
             Discover our offers tailored for residential and business customers
