@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
-    <div className="bg-gradient-to-r from-primary to-secondary text-white">
+    <div className="bg-gradient-to-r from-[#00f0ff] via-[#005eff] to-[#00c3ff] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Bloc principal avec logo, texte et bouton */}
@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             <img
               src={process.env.PUBLIC_URL + '/1000039446.png'}
               alt="U&Power logo"
-              className="w-32 h-32 md:w-48 md:h-48 mr-0 md:mr-8 mb-6 md:mb-0 rounded-full bg-white object-contain border-4 border-green-500 shadow-lg"
+              className="w-64 h-64 md:w-96 md:h-96 -ml-6 md:-ml-16 mr-0 md:mr-8 mb-6 md:mb-0 rounded-full bg-white object-contain border-4 border-green-500 shadow-lg"
             />
             <div className="flex flex-col justify-center items-center md:items-start">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left">
@@ -27,6 +27,21 @@ const Hero: React.FC = () => {
                   type="button"
                 >
                   Leave the past, join us and enjoy
+                </button>
+              </div>
+              <div className="flex justify-center md:justify-start w-full">
+                <button
+                  className="mt-4 px-6 py-3 rounded-full text-base font-medium shadow bg-white text-green-700 border border-green-400 hover:bg-green-50 transition-colors flex items-center gap-2"
+                  type="button"
+                  onClick={() => {
+                    const section = document.getElementById('ask-green-section');
+                    if (section) {
+                      section.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
+                  Scroll to Ask us anything green
                 </button>
               </div>
             </div>
