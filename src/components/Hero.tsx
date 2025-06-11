@@ -20,19 +20,13 @@ const Hero: React.FC = () => {
                 We offer reliable energy solutions with transparent rates
                 and exceptional customer service for over 25 years.
               </p>
-              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                <Link 
-                  to="/energy-types" 
-                  className="inline-block bg-white text-primary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
+              <div className="flex justify-center md:justify-start w-full">
+                <button
+                  className="mt-2 px-8 py-4 rounded-lg text-lg font-semibold shadow-lg bg-gradient-to-r from-yellow-400 via-green-400 to-green-600 text-white hover:from-yellow-500 hover:to-green-700 transition-colors"
+                  type="button"
                 >
-                  Discover our energy sources
-                </Link>
-                <Link 
-                  to="/offers" 
-                  className="inline-block bg-accent text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-colors"
-                >
-                  View our offers
-                </Link>
+                  Leave the past, join us and enjoy
+                </button>
               </div>
             </div>
           </div>
