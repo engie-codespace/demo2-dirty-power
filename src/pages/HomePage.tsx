@@ -34,8 +34,8 @@ const HomePage: React.FC = () => {
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src={process.env.PUBLIC_URL + '/solar.png'} alt="Solar panel icon" className="h-8 w-8 object-contain" />
+              <div className="h-20 w-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto border border-blue-200">
+                <img src={process.env.PUBLIC_URL + '/solar.png'} alt="Solar panel icon" className="h-12 w-12 object-contain rounded-full" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Buy your solar panel</h3>
               <p className="text-gray-600 text-center mb-6">
@@ -49,8 +49,8 @@ const HomePage: React.FC = () => {
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <div className="h-14 w-14 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src={process.env.PUBLIC_URL + '/car.png'} alt="Electric car icon" className="h-8 w-8 object-contain" />
+              <div className="h-20 w-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto border border-blue-200">
+                <img src={process.env.PUBLIC_URL + '/car.png'} alt="Electric car icon" className="h-12 w-12 object-contain rounded-full" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">Buy your electric car</h3>
               <p className="text-gray-600 text-center mb-6">
