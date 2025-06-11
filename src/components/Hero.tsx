@@ -6,6 +6,7 @@ const Hero: React.FC = () => {
     <div className="bg-gradient-to-r from-primary to-secondary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {/* Bloc principal avec logo, texte et bouton */}
           <div className="flex flex-col md:flex-row items-center justify-center md:justify-start mb-8 md:mb-0">
             <img
               src={process.env.PUBLIC_URL + '/1000039446.png'}
@@ -30,22 +31,22 @@ const Hero: React.FC = () => {
               </div>
             </div>
           </div>
-          
-          <div className="hidden md:flex items-center justify-center">
-            <div className="relative w-full h-80">
-              <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform rotate-3"></div>
-              <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform -rotate-3"></div>
-              <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-4">Calculate your savings</h3>
-                  <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
-                  <Link 
-                    to="/compare" 
-                    className="inline-block bg-primary text-white font-medium px-6 py-2 rounded-md hover:bg-secondary transition-colors"
-                  >
-                    Compare offers
-                  </Link>
-                </div>
+          {/* Carrés d'offres à droite */}
+          <div className="flex flex-col items-center justify-center gap-6">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="bg-white rounded-xl shadow-lg p-6 w-48 flex flex-col items-center border-2 border-green-400 text-center">
+                <span className="text-xl font-bold text-green-700 mb-2 text-center">Offer Green</span>
+                <span className="text-2xl font-extrabold text-green-600 text-center">-10%</span>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg p-6 w-48 flex flex-col items-center border-2 border-green-500 text-center">
+                <span className="text-xl font-bold text-green-800 mb-2 text-center">Super Green</span>
+                <span className="text-2xl font-extrabold text-green-700 text-center">-20%</span>
+              </div>
+              <div className="bg-white rounded-xl shadow-lg p-6 w-48 flex flex-col items-center border-2 border-green-600 text-center">
+                <span className="text-xl font-bold text-green-900 mb-2 text-center">The Greener</span>
+                <span className="text-2xl font-extrabold text-green-800 text-center">-25%</span>
+                <span className="text-4xl mt-2 text-center" role="img" aria-label="cookie">🍪</span>
+                <span className="text-sm text-gray-600 mt-1 text-center">A little treat for you!</span>
               </div>
             </div>
           </div>
