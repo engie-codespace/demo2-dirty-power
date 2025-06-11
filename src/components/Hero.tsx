@@ -6,27 +6,34 @@ const Hero: React.FC = () => {
     <div className="bg-gradient-to-r from-primary to-secondary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="flex flex-col justify-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Trusted energy provider for residential and business customers
-            </h1>
-            <p className="text-lg md:text-xl mb-8 text-gray-200">
-              We offer reliable energy solutions with transparent rates
-              and exceptional customer service for over 25 years.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link 
-                to="/energy-types" 
-                className="inline-block bg-white text-primary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
-              >
-                Discover our energy sources
-              </Link>
-              <Link 
-                to="/offers" 
-                className="inline-block bg-accent text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-colors"
-              >
-                View our offers
-              </Link>
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start mb-8 md:mb-0">
+            <img
+              src={process.env.PUBLIC_URL + '/1000039446.png'}
+              alt="U&Power logo"
+              className="w-32 h-32 md:w-48 md:h-48 mr-0 md:mr-8 mb-6 md:mb-0 rounded-full bg-white object-contain border-4 border-green-500 shadow-lg"
+            />
+            <div className="flex flex-col justify-center items-center md:items-start">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left">
+                U&Power: Your energy, our green commitment
+              </h1>
+              <p className="text-lg md:text-xl mb-8 text-gray-200 text-center md:text-left">
+                We offer reliable energy solutions with transparent rates
+                and exceptional customer service for over 25 years.
+              </p>
+              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                <Link 
+                  to="/energy-types" 
+                  className="inline-block bg-white text-primary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
+                >
+                  Discover our energy sources
+                </Link>
+                <Link 
+                  to="/offers" 
+                  className="inline-block bg-accent text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-colors"
+                >
+                  View our offers
+                </Link>
+              </div>
             </div>
           </div>
           
